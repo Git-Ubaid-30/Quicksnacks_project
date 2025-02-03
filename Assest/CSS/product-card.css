@@ -1,0 +1,450 @@
+/* ================main-content start here============  */
+
+.product h1
+{
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    font-size: 2rem;
+    color: #2F155E;
+    text-transform: uppercase;
+}
+
+.reviews h1
+{
+    font-weight: bold;
+    font-size: 2rem;
+    color: #2F155E;
+    text-transform: uppercase;
+}
+
+.card-p-2
+{
+    font-size: 21px;
+    font-weight: 400;
+    width: 180%;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    color: #2F155E;
+}
+
+.line-r
+{
+    height: 6px;
+    width: 16%;
+    background: #3FAF28;
+    display: inline-block;
+    border-radius: 17px;
+}
+
+.line-2
+{
+    height: 6px;
+    width: 40%;
+    background: #3FAF28;
+    display: inline-block;
+    border-radius: 17px;
+}
+
+.line-yougurt
+{
+    height: 6px;
+    width: 17%;
+    background: #3FAF28;
+    display: inline-block;
+    border-radius: 17px;
+}
+
+.line-rice
+{
+    height: 6px;
+    width: 22%;
+    background: #3FAF28;
+    display: inline-block;
+    border-radius: 17px;
+}
+
+.line-chia
+{
+    height: 6px;
+    width: 32%;
+    background: #3FAF28;
+    display: inline-block;
+    border-radius: 17px;
+}
+
+.line-peach
+{
+    height: 6px;
+    width: 32%;
+    background: #3FAF28;
+    display: inline-block;
+    border-radius: 17px;
+}
+
+.line-oatmeal
+{
+    height: 6px;
+    width: 16%;
+    background: #3FAF28;
+    display: inline-block;
+    border-radius: 17px;
+}
+
+.line-jump
+{
+    height: 6px;
+    width: 24%;
+    background: #3FAF28;
+    display: inline-block;
+    border-radius: 17px;
+}
+
+.line-tea
+{
+    height: 6px;
+    width: 24%;
+    background: #3FAF28;
+    display: inline-block;
+    border-radius: 17px;
+}
+
+.line-beans
+{
+    height: 6px;
+    width: 26%;
+    background: #3FAF28;
+    display: inline-block;
+    border-radius: 17px;
+}
+
+.line-ginger
+{
+    height: 6px;
+    width: 26%;
+    background: #3FAF28;
+    display: inline-block;
+    border-radius: 17px;
+}
+
+.line-anda
+{
+    height: 6px;
+    width: 26%;
+    background: #3FAF28;
+    display: inline-block;
+    border-radius: 17px;
+}
+
+.line-chia
+{
+    height: 6px;
+    width: 26%;
+    background: #3FAF28;
+    display: inline-block;
+    border-radius: 17px;
+}
+
+.line-apple
+{
+    height: 6px;
+    width: 23%;
+    background: #3FAF28;
+    display: inline-block;
+    border-radius: 17px;
+}
+
+.line-popcorn
+{
+    height: 6px;
+    width: 33%;
+    background: #3FAF28;
+    display: inline-block;
+    border-radius: 17px;
+}
+
+.line-apple-chips
+{
+    height: 6px;
+    width: 23%;
+    background: #3FAF28;
+    display: inline-block;
+    border-radius: 17px;
+}
+
+.line-mix
+{
+    height: 6px;
+    width: 18%;
+    background: #3FAF28;
+    display: inline-block;
+    border-radius: 17px;
+}
+
+.line-energy
+{
+    height: 6px;
+    width: 31%;
+    background: #3FAF28;
+    display: inline-block;
+    border-radius: 17px;
+}
+
+.line-guacamole
+{
+    height: 6px;
+    width: 26%;
+    background: #3FAF28;
+    display: inline-block;
+    border-radius: 17px;
+}
+
+.line-kale
+{
+    height: 6px;
+    width: 23%;
+    background: #3FAF28;
+    display: inline-block;
+    border-radius: 17px;
+}
+
+.line-dired
+{
+    height: 6px;
+    width: 26%;
+    background: #3FAF28;
+    display: inline-block;
+    border-radius: 17px;
+}
+
+/* ================main-content end here============  */
+
+
+/* ================Recipe-line start here============  */
+
+.recipe h3
+{
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.8rem;
+    color: #2F155E;
+    text-transform: uppercase;
+}
+
+.line
+{
+    height: 6px;
+    width: 37%;
+    background: #3FAF28;
+    display: inline-block;
+    border-radius: 17px;
+}
+
+.recipe .heading
+{
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #2F155E;
+    font-family: "Poppins", sans-serif;
+    font-size: 21px;
+}
+
+.recipe .ing
+{
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    color: rgb(99, 92, 92);
+}
+
+/* ================Recipe-line end here============  */
+
+
+/* =================reviwes start here=============== */
+
+.row-box
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.box:hover
+{
+    transform: translateY(-10px);
+    -webkit-transition: all ease-out 0.3s;
+    -o-transition: all ease-out 0.3s;
+    -moz-transition: all ease-out 0.3s;
+    transition: all ease-out 0.3s;
+}
+
+.box
+{
+    width: 500px;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+    padding: 15px;
+    margin: 20px;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.profile-img
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+.profile-img img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.profile
+{
+    display: flex;
+    align-items: center;
+}
+
+.info
+{
+    display: flex;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+}
+
+.info strong
+{
+    color: #2F155E;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+    font-family: "Poppins", sans-serif;
+}
+
+.info span
+{
+    color: #8f8585;
+    font-size: 0.8rem;
+    font-family: "Poppins", sans-serif;
+}
+
+.reviews-s
+{
+    color: #3FAF28;
+}
+
+.box-top
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.comment p
+{
+    font-size: 1.1rem;
+    color: #2F155E;
+    line-height: 22px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+
+/* =================reviews end here=============== */
+
+
+/* ================more-categories start here============  */
+
+.categories h1
+{
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    font-size: 3rem;
+    color: #2F155E;
+    text-transform: uppercase;
+}
+
+.categories h1 span
+{
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    font-size: 3rem;
+    color: #3FAF28;
+    text-transform: uppercase;
+}
+
+.categories .card
+{
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+.categories .card-body
+{
+    border: 1px dashed rgb(196, 188, 188);
+    box-shadow: 0 2px 10px -1px rgba(0 0 0 / 19%);
+}
+
+.img-fluid:hover
+{
+    opacity: 80%;
+}
+
+.head-1
+{
+    font-weight: 400;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    color: #2F155E;
+}
+
+
+/* ================more-categoriesend here============  */
+
+@media(max-width:1060px)
+{
+    .box
+    {
+        width: 45px;
+        padding: 10px;
+    }
+}
+
+@media(max-width:922px)
+{
+    .box
+    {
+        width: 500px;
+        padding: 10px;
+    }
+}
+
+@media(max-width:790px)
+{
+    .box
+    {
+        width: 100%;
+    }
+}
+
+@media(max-width:340px)
+{
+    .box-top
+    {
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+    }
+    .reviews-s
+    {
+        margin-top: 10px;
+    }
+
+}

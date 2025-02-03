@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body
+{
+    font-family: "Poppins", sans-serif;
+    position: relative;
+    font-weight: 400;
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar
+{
+    width: 0.625rem;
+}
+
+::-webkit-scrollbar-track
+{
+    background-color: white;
+}
+
+::-webkit-scrollbar-thumb
+{
+    background-color: #2F155E;
+}
+
+*
+{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* =============navbar start here============= */
+
+.navbar
+{
+    background-color: white;
+}
+
+.navbar-brand
+{
+    height: 70px;
+    width: 160px;
+}
+
+.nav-item a
+{
+    color: #2F155E;
+    text-decoration: none;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    margin-right: 15px;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.nav-item a:hover
+{
+    color: #3FAF28;
+}
+
+.navbar-toggler
+{
+    font-size: 23px;
+    color: #2F155E;
+}
+
+.navbar-toggler:focus
+{
+    outline: none;
+    box-shadow: none;
+}
+
+
+/* =============navbar end here============= */
+
+
+/* =============footer start here============= */
+
+ul
+{
+    padding: 0;
+    margin: 0;
+}
+
+li
+{
+    list-style: none;
+}
+
+a:focus,a:hover
+{
+    text-decoration: none;
+    outline: 0;
+}
+
+p
+{
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 300;
+    color: #898b96;
+}
+
+h4
+{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    color: #363940;
+}
+
+a
+{
+    color: #ffffff;
+}
+
+.footer-big
+{
+    padding: 30px 0 25px 0;
+    background-color: white;
+}  
+
+.footer-big .footer-widget
+{
+    margin-bottom: 3px;
+}
+
+.footer--light
+{
+    color: #2F155E;
+}
+
+.footer-big .footer-menu ul li a,.footer-big p, .footer-big ul li 
+{
+    color: #2F155E;
+}
+
+.footer-menu
+{
+    padding-left: 48px;
+}
+
+.footer-menu ul li a
+{
+    font-size: 15px;
+    line-height: 32px;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    font-family: "Poppins", sans-serif;
+}
+
+.footer-menu ul li a:hover
+{
+    color: #3FAF28;
+}
+
+.icon-1
+{
+    color: #000000;
+}
+
+.icon-1:hover
+{
+    color: #004cff!important;
+}
+
+.icon-2
+{
+    color: #000000;
+}
+
+.icon-2:hover
+{
+    color: #b512d6!important;
+}
+
+.icon-3
+{
+    color: #000000;
+}
+
+.icon-3:hover
+{
+    color: #11fa00!important;
+}
+
+.icon-4
+{
+    color: #000000;
+}
+
+.icon-4:hover
+{
+    color: #004cff!important;
+}
+
+.footer-widget-title
+{
+    line-height: 30px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.mini-footer
+{
+    background-color: #2F155E;
+    text-align: center;
+    padding: 20px 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.mini-footer p
+{
+    margin: 0;
+    line-height: 26px;
+    font-size: 15px;
+    color: #c7b9b9e7;
+}
+
+.mini-footer p span
+{
+    font-weight: 500;
+    color: #3FAF28;
+}
+
+.mini-footer p a
+{
+    font-weight: 500;
+    color: #3FAF28;
+}
+
+.mini-footer p a:hover
+{
+    color: #ffffff;
+}
+
+.widget-about
+{
+    margin-top: 40px;
+}
+
+.widget-about img
+{
+    display: block;
+    max-width: 70%;
+    margin-bottom: 4px;
+}
+
+.widget-about p
+{
+    font-weight: 400;
+}
+
+.widget-about .contact-details
+{
+    display: flex;
+    margin: 9px 0 0 0;
+    margin-left: 44px;
+}
+
+.widget-about .contact-details li
+{
+    margin-bottom: 10px;
+}
+
+.widget-about .contact-details li:last-child
+{
+    margin-bottom: 0;
+}
+
+.widget-about .contact-details li i
+{
+    padding-right: 10px;
+    color: #292727;
+    margin: 2px;
+    transition-duration: 0.3s;
+    transition-property: all;
+}
+
+.widget-about .contact-details li i:hover
+{
+    transform: scale(1.1);
+}
+
+.widget-about .contact-details li a
+{
+    color: #5867dd;
+}
+
+
+/* =============footer end here============= */
